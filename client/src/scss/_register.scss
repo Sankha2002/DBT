@@ -1,0 +1,66 @@
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../Assets/hos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.form-select {
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add margin to separate from the form */
+    color: white;
+    background-color: black;
+    border: 1px solid white; /* Add border for contrast */
+}
+
+.right-wrapper {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.register-form {
+    width: 500px; /* Increase width to make the form broader */
+    max-width: 100%; /* Ensure the form doesn't exceed the container's width */
+    background-color: black;
+    color: white; /* Set text color to white */
+    padding: 30px; /* Adjust padding to maintain proportions */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+    color: white; /* Set text color to white */
+    background-color: black;
+    border: 1px solid white; /* Add border for contrast */
+}
+
+.form-control::placeholder {
+    color: white; /* Set placeholder text color to white */
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.85rem;
+}
+
+.btn {
+    width: 100%;
+}
